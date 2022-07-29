@@ -1,0 +1,123 @@
+title: leetxor
+subtitle: An IT security geek
+description: >- # this means to ignore newlines until "baseurl:"
+  An IT security geek
+
+url: "https://limas7baginta.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+baseurl: "" # the subpath of your site, e.g. /blog
+
+urls:
+    - text: Blog
+      url: /blog
+    - text: About Me
+      url: /about
+    - text: Contact Me
+      url : /contact
+    - text: Styleguide
+      url: /styleguide
+
+# Edit these details 
+
+author_logo: profile.png
+author: Limas a.k.a Leetxor
+author_bio: You can call me as Leetxor and this is leetxor-official website.  
+author_email: "limas.baginta@gmail.com"
+author_location: Indonesia
+author_website_url: "http://limas7baginta.github.io"
+
+author_work_experiences: 
+            - company_name: IMFI
+              company_logo: imfi.png
+              company_url: indomobilfinance.com/
+              designation: IT Infrastructure Security (Jan 2018 - Currently work here)
+              description: Maintain IT assets includes Computer Network and Computer Security
+              visibility: true
+            - company_name: Lapan
+              company_logo: lapan.png
+              company_url: pustekdata.lapan.go.id/
+              designation: A member of IT Internships
+              description: As part of the Intern
+              visibility: true
+
+author_education_details:
+              - college_logo: ui.png
+                college_name: Universitas Indonesia
+                college_url: ui.ac.id/
+                college_degree: Computer Engineering
+                description: Bachelor of Engineering
+                visibility: true
+
+author_project_details:
+              - project_thumbnail: owasp.png
+                project_title: Owasp
+                project_description: Owasp Analysis Labs
+                project_url: https://github.com/limas7baginta/OWASPexperience
+                visibility: true
+              - project_thumbnail: honeypot.png
+                project_title: Honeypot
+                project_description: Honeypot NMAP Labs
+                project_url: https://github.com/limas7baginta/HONEYPOTexperience
+                visibility: true
+
+# social links
+twitter_username: leetxor
+github_username:  limas7baginta
+facebook_username: leetxor
+linkedin_username: limas-baginta-876b36118
+behance_username: leetxor
+instagram_username: leetxor
+medium_username: leetxor
+telegram_username: leetxor
+dribbble_username: leetxor
+flickr_username: leetxor
+
+#for comments using disqus
+disqus_shortname: leetxor
+
+# wakatime username (coding activity)
+wakatime_username: leetxor
+
+# syntax highlighter
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# google analytics
+google_analytics: UA-46783401-10 
+
+# Choose what to show ( can be true or false)
+show_author_work_experiences: true
+show_author_education_details: true
+show_author_project_details: true
+
+# dont touch this unless required
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  # - jekyll-archives
+
+# pagination of posts
+paginate: 8
+per_page: 4
+paginate_path: "/blog/page/:num/"
+
+# minify 
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
+
+# Archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   layout: archive
+#   permalinks:
+#     category: '/category/:name/'
+
+
